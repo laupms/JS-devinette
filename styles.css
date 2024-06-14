@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+body{
+    background-color: #d9d3c3;
+    color: #5c574a;
+}
+
+h1{
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    text-align: center;
+    border: 0.5px solid #e0d1a8;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 3px 4px 14px -6px;
+}
+input{
+    margin: 50px;
+    width: 40%;
+    outline-color: #e0d1a8;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+#champPrompt{
+    color: rgb(145, 136, 255);
+}
+#submit{
+    margin: 20px;
+    padding: 10px;
+    color: #dddddd;
+    background-color: #41433c;
+    border-style: hidden;
+    border-radius: 5px;
+}
+#submit:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: #8a8370;
+}
+
+#replay-btn{
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    color: #5c574a;
+    text-align: center;
+    text-decoration: none;
+  
+}
+#replay-btn:hover{
+    color: #8a8370;
+    cursor: pointer;
+    transform: scale(1.1);
+}
